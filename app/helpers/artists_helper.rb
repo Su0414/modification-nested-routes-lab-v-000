@@ -4,6 +4,6 @@ module ArtistsHelper
   end
 
   def artist_select(song, flag)
-    song.artist.nil? ? link_to("Edit Artist", edit_song_path(song)) : link_to(song.artist_name, artist_path(song.artist))
+    # song.artist.nil? ? link_to("Edit Artist", edit_song_path(song)) : link_to(song.artist_name, artist_path(song.artist))
   end
 end
